@@ -5,7 +5,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="fastapi-cli",
+    name="fastapi-starter-cli",
     version="0.1.0-dev",
     packages=find_packages(include=['cli', 'cli.*']),
     include_package_data=True,
